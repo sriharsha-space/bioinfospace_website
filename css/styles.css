@@ -72,6 +72,19 @@ body {
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
 }
+.NEW_TEXT{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 21px;
+}
+/*.footer{
+  font-size: 1%;
+  position: absolute;
+  right: 50%;
+  left: 50%;
+}*/
+.proj{
+  letter-spacing: 6px;
+}
 
 hr {
   box-sizing: content-box;
@@ -141,6 +154,7 @@ strong {
 small {
   font-size: 80%;
 }
+
 
 sub,
 sup {
@@ -1288,10 +1302,10 @@ pre code {
     max-width: 25%;
   }
 
-  .col-lg-4 {
-    flex: 0 0 33.3333333333%;
-    max-width: 33.3333333333%;
-  }
+  /*.col-lg-4 {
+    flex: 0 0 100.3333333333%;
+    max-width: 100.3333333333%;
+  }*/
 
   .col-lg-5 {
     flex: 0 0 41.6666666667%;
@@ -9986,7 +10000,7 @@ p {
 }
 
 .page-section {
-  padding: 6rem 0;
+  padding: 3rem 0;
 }
 .page-section h2.section-heading {
   font-size: 2.5rem;
@@ -9999,6 +10013,12 @@ p {
   font-style: italic;
   font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   margin-bottom: 4rem;
+}
+.email_logo #team{
+  position: absolute;
+  top: 80px;
+  left: 20%;
+  height: 20%;
 }
 
 @media (min-width: 768px) {
@@ -10142,8 +10162,8 @@ header.masthead .masthead-heading {
 
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 17rem;
-    padding-bottom: 12.5rem;
+    padding-top: 20%;
+    padding-bottom: 20%;
   }
   header.masthead .masthead-subheading {
     font-size: 2.25rem;
