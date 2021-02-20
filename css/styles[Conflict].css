@@ -570,25 +570,22 @@ pre code {
 @media (min-width: 576px) {
   .container-sm, .container {
     max-width: 540px;
-    max-height: 416px;
   }
 }
 @media (min-width: 768px) {
   .container-md, .container-sm, .container {
     max-width: 720px;
-    max-height: 555px;
   }
 }
 @media (min-width: 992px) {
   .container-lg, .container-md, .container-sm, .container {
     max-width: 960px;
-    max-height: 741px;
   }
 }
 @media (min-width: 1200px) {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
     max-width: 1140px;
-    max-height: 1000px;
+    max-height: 880px;
   }
 }
 .row {
@@ -596,7 +593,6 @@ pre code {
   flex-wrap: wrap;
   margin-right: -0.75rem;
   margin-left: -0.75rem;
-  
 }
 
 .no-gutters {
@@ -615,9 +611,8 @@ pre code {
 .col-md-auto, .col-md-12, .col-md-11, .col-md-10, .col-md-9, .col-md-8, .col-md-7, .col-md-6, .col-md-5, .col-md-4, .col-md-3, .col-md-2, .col-md-1, .col-sm,
 .col-sm-auto, .col-sm-12, .col-sm-11, .col-sm-10, .col-sm-9, .col-sm-8, .col-sm-7, .col-sm-6, .col-sm-5, .col-sm-4, .col-sm-3, .col-sm-2, .col-sm-1, .col,
 .col-auto, .col-12, .col-11, .col-10, .col-9, .col-8, .col-7, .col-6, .col-5, .col-4, .col-3, .col-2, .col-1 {
-  position:relative;
+  position: relative;
   width: 100%;
-  
   padding-right: 0.75rem;
   padding-left: 0.75rem;
 }
@@ -625,7 +620,6 @@ pre code {
 .col {
   flex-basis: 0;
   flex-grow: 1;
-  
   max-width: 100%;
 }
 
@@ -10012,7 +10006,7 @@ p {
 .page-section h2.section-heading {
   font-size: 2.5rem;
   margin-top: 0;
-  margin-bottom: 7rem;
+  margin-bottom: 1rem;
 }
 .page-section h3.section-subheading {
   font-size: 1.5rem;
@@ -10023,7 +10017,7 @@ p {
 }
 .email_logo #team{
   position: absolute;
-  top: 30%;
+  top: 80px;
   left: 20%;
   height: 20%;
 }
